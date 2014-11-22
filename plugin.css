@@ -1,0 +1,42 @@
+.fut-icons-button {
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0 .8em 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.fut-padding-left {
+    padding-left:.8em;
+}
+
+.fut-as-string-box {
+    clear:both;
+    padding-top:.4em;
+}
+
+input.fut-plugin-del {
+    margin-right:.8em;
+}
+
+.fu-ext-imgs {
+    width:24px;
+    height:24px;
+    background-image: url(ext_icons.png);
+    background-repeat:no-repeat;
+    vertical-align: middle;
+}
+
+.fu-ext-doc   {background-position: 0 0;}
+.fu-ext-img   {background-position: -24px 0;}
+.fu-ext-iso   {background-position: -48px 0;}
+.fu-ext-mov   {background-position: -72px 0;}
+.fu-ext-none  {background-position: -96px 0;}
+.fu-ext-pdf   {background-position: 0 -24px;}
+.fu-ext-txt   {background-position: -24px -24px;}
+.fu-ext-wav   {background-position: -48px -24px;}
+.fu-ext-zip   {background-position: -72px -24px;}
+
