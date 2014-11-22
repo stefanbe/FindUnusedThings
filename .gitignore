@@ -1,4 +1,4 @@
-# FFindUnusedThings
+# FindUnusedThings
 *.*
 !.gitignore
 !README.md
@@ -9,6 +9,7 @@
 
 */
 !sprachen/
+!sprachen/*
 
 # algemein
 .DS_Store
