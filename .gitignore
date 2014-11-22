@@ -1,0 +1,21 @@
+# FFindUnusedThings
+*.*
+!.gitignore
+!README.md
+!index.php
+!ext_icons.png
+!fut_admin.js
+!plugin.css
+
+*/
+!sprachen/
+
+# algemein
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
