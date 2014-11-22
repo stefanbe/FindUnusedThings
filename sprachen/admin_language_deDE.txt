@@ -1,0 +1,37 @@
+tab_files          = Dateien
+tab_galery         = Galerien
+tab_plugins        = Plugins
+tab_syntax         = Eigene Syntax
+tab_template       = Template eigene Dateien
+
+text_files         = Dateien die anscheinend nicht Benutzt werden
+text_galery        = Galerien die anscheinend nicht Benutzt werden
+text_plugins       = Plugins die anscheinend nicht Benutzt werden
+text_syntax        = Bilder und CSS Dateien die anscheinend nicht Benutzt werden
+text_template      = Template eigene Bilder und CSS Dateien die anscheinend nicht Benutzt werden
+text_template_css   = CSS Dateien
+text_template_img   = Bilder
+
+error_files        = Folgende Dateien konnten nicht Gelöscht werden
+error_galery       = Folgende Galerien konnten nicht Gelöscht werden
+error_plugins      = Folgende Plugins konnten nicht Gelöscht werden
+error_syntax       = Folgende Eigene Syntaxelemente konnten nicht Gelöscht werden
+error_template     = Folgende Bilder und CSS Dateien konnten nicht Gelöscht werden
+
+settings_files     = Dateien
+settings_galery    = Galerien
+settings_plugins   = Plugins
+settings_syntax    = Eigene Syntaxelemente
+settings_template  = Template eigene Bilder und CSS Dateien
+
+settings_title     = <b>Dinge von der Suche Ausschließen</b>
+
+as_string_text     = Die <b>Datei</b> wurde als <b>Zeichenkette</b> in folgenden Dateien gefunden:
+as_string_syntax   = In Eigene Syntaxelementen
+as_string_template = Im Aktiven Template
+as_string_catpage  = In der Inhaltsseite <b>{PARAM1} / {PARAM2}</b>
+
+del                = Alle Ausgewählten Löschen
+no_things          = Es wurde nichts gefunden zum Löschen.
+admin_text         = Nicht Benutzte Dinge<br /><i><b>Backup gemacht?</b></i>
+admin_button       = Suchen und Löschen

@@ -1,0 +1,32 @@
+<h1 style="margin-top:0;">Wichtig es wird dringend geraten ein Backup zu machen</h1>
+<h2>Das Löschen Erfolgt ohne Nachfrage.<br />Bei Plugins und Galerien wird der jeweilige Ordner Gelöscht.</h2>
+Die Suche erfolgt in allen Inhaltsseiten, der template.html und Eigene Syntaxelementen.<br />
+Außer bei der <b>Template eigene Dateien</b> Suche da werden die Bilder und CSS-Dateien nur im Aktiven Template in der template.html und im Ordner css/ enthaltenen CSS-Dateien gesucht.<br />
+<h3 style="margin-bottom: .4em;">Achtung</h3>
+nach <b>Galerien</b> wird Ausschließlich mit der Kennzeichnung <b>@=</b> und <b>=@</b> gesucht.<br />
+nach <b>Dateien</b> wird mit der Kennzeichnung <b>@=</b> und <b>=@</b> gesucht. Wenn die Datei nicht gefunden wurde, wird sie als eine <b>Zeichenkette</b> gesucht, die so Gefundenen Treffer sind <b>nicht Verläßlich</b> und solten vorher überprüft werden.<br />
+<br />
+<h3 style="margin-bottom: .4em;">Was für ein Backup gebraucht wird</h3>
+Im Admin Tab im Feld Backup für folgende Einträge ein Häkchen setzen<br />
+<ul>
+    <li><b>Dateien</b> = <i>mit Kategorien</i>. Benötigt werden die Dateien aus den Ordnern kategorien/???/dateien/</li>
+    <li><b>Galerien</b> = <i>mit Galerien</i></li>
+    <li><b>Plugins</b> = <i>mit Plugins</i></li>
+    <li><b>Eigene Syntax</b> = <i>mit moziloCMS</i>. Es wird hier nur die Datei <b>syntax.conf.php</b> aus dem Ordner <b>cms/conf/</b> Benötigt</li>
+    <li><b>Template eigene Dateien</b> = <i>mit Layouts</i> Vom <b>Aktiven</b> Template die Ordner <b>grafiken/</b> und <b>css/</b></li>
+</ul>
+<br />
+oder die Dateien oder Ordner mit einem FTP Programm vorher Sichern.<br />
+<br />
+<h3 style="margin-bottom: .4em;">Dinge von der Suche Ausschließen</h3>
+Das ist Nötig wenn:<br />
+<ul>
+    <li>Plugins keinen Platzhalter Brauchen wie z.B. das <b>MetaKeywordsDescription</b> Plugin</li>
+    <li>Dateien oder Galerien die z.B. in Eigene Syntaxelementen <b>nicht</b> mit der Kennzeichnung <b>@=</b> und <b>=@</b> Benutzt werden</li>
+    <li>Wenn sie in einer Plugin Einstellung Benutzt werden. Da nicht in denn Plugin Einstellungs Dateien Gesucht wird.</li>
+</ul>
+<br />
+Nicht Wundern das Plugin <b>MetaKeywordsDescription</b> ist schon Festeingetragen weil es keinen Platzhalter Braucht und das Bild <b>searchicon.gif</b> was im Template Ordner /grafiken ist da es von der SearchClass benutzt wird.<br />
+<br />
+<h3>Nach dem Löschen von Plugins solte im Admin der Tab Plugins neu Aufgerufen werden.</h3>
+<br />
