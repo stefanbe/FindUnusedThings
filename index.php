@@ -416,10 +416,11 @@ class FindUnusedThings extends Plugin {
             $tmp_array[FILE_START.$tmp.FILE_END] = $tmp;
         }
 
+        ksort($tmp_array);
         $config['galery'] = array(
             "type" => "select",
             "description" => $this->admin_lang->getLanguageValue("settings_galery"),
-            "descriptions" => ksort($tmp_array),
+            "descriptions" => $tmp_array,
             "multiple" => "true"
             );
 
@@ -430,10 +431,11 @@ class FindUnusedThings extends Plugin {
             $tmp_array[$plugin] = $plugin;
         }
 
+        ksort($tmp_array);
         $config['plugins'] = array(
             "type" => "select",
             "description" => $this->admin_lang->getLanguageValue("settings_plugins"),
-            "descriptions" => ksort($tmp_array),
+            "descriptions" => $tmp_array,
             "multiple" => "true"
             );
 
@@ -442,10 +444,11 @@ class FindUnusedThings extends Plugin {
             $tmp_array[$syntax] = $syntax;
         }
 
+        ksort($tmp_array);
         $config['syntax'] = array(
             "type" => "select",
             "description" => $this->admin_lang->getLanguageValue("settings_syntax"),
-            "descriptions" => ksort($tmp_array),
+            "descriptions" => $tmp_array,
             "multiple" => "true"
             );
 
@@ -476,9 +479,9 @@ class FindUnusedThings extends Plugin {
             "description" => $this->admin_lang->getLanguageValue("settings_template"),
             "descriptions" => $tmp_array,
             "multiple" => "true"
-            );
-            $tmp_hr = '<div style="clear:both;padding-top:1px;padding-bottom:3px;"><hr style="margin:0;" /></div>';
-            $config['--template~~'] = '<div style="padding-bottom:.5em">'.$this->admin_lang->getLanguageValue("settings_title").'</div>'
+        );
+        $tmp_hr = '<div style="clear:both;padding-top:1px;padding-bottom:3px;"><hr style="margin:0;" /></div>';
+        $config['--template~~'] = '<div style="padding-bottom:.5em">'.$this->admin_lang->getLanguageValue("settings_title").'</div>'
                     .'<div style="padding-left:1.5em">'
                         .'<div style="padding-top:3px;" class="mo-in-li-l">{files_description}</div>'
                         .'<div class="mo-in-li-r">{files_select}</div>'
